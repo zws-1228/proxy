@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>链接前缀添加器</title>  
+<link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <label for="linkInput">输入链接:</label>  
+        <input type="text" id="linkInput" placeholder="输入你的链接">  
+        <select id="sourceSelect">  
+            <option value="">请选择源</option>  
+            <option value="https://www.example.com/prefix1/">源1</option>  
+            <option value="https://www.example.com/prefix2/">源2</option>  
+            <option value="https://www.example.com/prefix3/">源3</option>  
+        </select>  
+        <button onclick="addPrefix()">添加前缀</button>  
+        <p>结果链接: <span id="resultLink"></span></p>  
+    </div>  
+  
+    <script src="script.js"></script>  
+</body>  
+</html>
